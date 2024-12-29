@@ -8,8 +8,13 @@
     <title>Mi primer página</title>
 </head>
 <body>
+    <?php
+    $n1 = 2;
+    $n2 = 3;
+    $r = $n1+$n2;
+    ?>
     <h1>Alejandro Leal</h1>
     <h2>Git Pages</h2>
-    <p>Este es el contenido de prueba.</p>
+    <p>Este es el contenido de prueba. Resultado: <?php echo $r; ?></p>
 </body>
 </html>
