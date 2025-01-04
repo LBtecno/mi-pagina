@@ -8,13 +8,15 @@
     <title>Mi primer página</title>
 </head>
 <body>
-    <?php
-    $n1 = 2;
-    $n2 = 3;
-    $r = $n1+$n2;
-    ?>
     <h1>Alejandro Leal</h1>
     <h2>Git Pages</h2>
     <p>Este es el contenido de prueba. Resultado: <?php echo $r; ?></p>
+    <script src="https://www.paypal.com/sdk/js?client-id=BAAxJSwtGHntvbdbtwkg93JlSOOfwmuoPWK07thxV6OusIWOE94SbU_4UTBIKDqYd1UkZas5jbN2mc3tvw&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+<div id="paypal-container-9767L96S3X54E"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "9767L96S3X54E",
+  }).render("#paypal-container-9767L96S3X54E")
+</script>
 </body>
 </html>
