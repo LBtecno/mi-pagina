@@ -1,3 +1,33 @@
+body{
+    max-width: fit-content;
+    border: 1px solid #55555569;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Nexa;
+}
+
 h1{
-    color: red;
+    color: #001435;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-align: center;
+    background: #dcdcdc75;
+    margin: 0px 0px 20px 0px;
+    border-radius: 8px 8px 0px 0px;
+    padding: 15px;
+}
+#paypal-container-9767L96S3X54E #price-label {
+    line-height: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0.75rem;
+    background: #b2ecc2;
+    color: #116424;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
 }
