@@ -13,7 +13,7 @@
       $var = 1;
       $var2 = 2;
 
-      echo = "Resultado: ".$var + $var2;
+      echo "Resultado: ".$var + $var2;
     ?>
     <p> Una vez realizado su pago, se enviara a WhatsApp <br> donde podrás compartirme el comprobante de pago <br> y por medio del chat te compartiré el plugin <br> <strong>menu-digita.zip</strong></p>
     <p> Contacto directo: <a href="https://wa.me/522761018606">WhatsApp</a></p>
